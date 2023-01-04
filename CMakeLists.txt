@@ -14,7 +14,7 @@ file(GLOB_RECURSE FMHA_FILES *.cpp)
 
 add_library(trt_flash_attention SHARED ${FMHA_FILES})
 include_directories(SYSTEM ${CUDA_INCLUDE_DIRS})
-include_directories(INTERFACE ${FMHA_INCLUDE_DIR})
+include_directories(${FMHA_INCLUDE_DIR})
 
 include(GNUInstallDirs)
 
