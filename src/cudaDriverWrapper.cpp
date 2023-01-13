@@ -31,7 +31,7 @@
 #define dllGetSym(handle, name) dlsym(handle, name)
 #endif
 
-#include "cudaDriverWrapper.h"
+#include "trt_flash_attention/cudaDriverWrapper.h"
 #include <cstdint>
 #include <cstdio>
 #include <cuda.h>

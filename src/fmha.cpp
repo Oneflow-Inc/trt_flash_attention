@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-#include "fmha.h"
+#include "trt_flash_attention/fmha.h"
 #include <cmath>
 
 namespace nvinfer1
